@@ -1,59 +1,89 @@
-# SiteCasamento
+# 💍 Site Casamento
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.12.
+Site do convite do nosso casamento: uma página web para compartilhar com familiares e amigos as informações da cerimônia de forma simples, bonita e acessível de qualquer dispositivo.
 
-## Development server
+🔗 **Acesse o site:** [convite-casamento-five-lime.vercel.app](https://convite-casamento-five-lime.vercel.app/)
 
-To start a local development server, run:
+---
 
-```bash
-ng serve
+## ✨ Funcionalidades
+
+> Edite esta lista com o que o site realmente tem.
+
+- Convite digital com as informações do evento
+- Layout responsivo (celular, tablet e desktop)
+- Publicação automática na Vercel
+
+## 🛠 Tecnologias
+
+| Categoria | Ferramenta |
+| --- | --- |
+| Framework | [Angular](https://angular.dev/) 21 |
+| Linguagem | [TypeScript](https://www.typescriptlang.org/) |
+| Testes | [Vitest](https://vitest.dev/) + jsdom |
+| Formatação | [Prettier](https://prettier.io/) + EditorConfig |
+| Deploy | [Vercel](https://vercel.com/) |
+
+## 📁 Estrutura do projeto
+
+```
+Site-Casamento/
+├── public/        # Arquivos estáticos (imagens, favicon etc.)
+├── src/           # Código-fonte da aplicação
+├── angular.json   # Configuração do Angular CLI
+└── package.json   # Dependências e scripts
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🚀 Como rodar localmente
 
-## Code scaffolding
+### Pré-requisitos
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- [Node.js](https://nodejs.org/) (versão LTS recomendada)
+- npm
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Passo a passo
 
 ```bash
-ng generate --help
+# 1. Clone o repositório
+git clone https://github.com/Nphilin/Site-Casamento.git
+
+# 2. Entre na pasta do projeto
+cd Site-Casamento
+
+# 3. Instale as dependências
+npm install
+
+# 4. Inicie o servidor de desenvolvimento
+npm start
 ```
 
-## Building
+Depois é só abrir `http://localhost:4200/` no navegador. A página recarrega automaticamente a cada alteração nos arquivos.
 
-To build the project run:
+## 📜 Scripts disponíveis
 
-```bash
-ng build
-```
+| Comando | O que faz |
+| --- | --- |
+| `npm start` | Inicia o servidor de desenvolvimento |
+| `npm run build` | Gera a build de produção na pasta `dist/` |
+| `npm run watch` | Build em modo de observação (desenvolvimento) |
+| `npm test` | Executa os testes unitários com Vitest |
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## ☁️ Deploy
 
-## Running unit tests
+O projeto é hospedado na **Vercel**. Para publicar sua própria versão:
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+1. Faça um fork ou clone do repositório.
+2. Importe o projeto na [Vercel](https://vercel.com/new).
+3. A Vercel detecta o Angular automaticamente. Confirme o comando de build (`npm run build`) e faça o deploy.
 
-```bash
-ng test
-```
+## 🤝 Contribuições
 
-## Running end-to-end tests
+Este é um projeto pessoal, mas sugestões são bem-vindas! Abra uma *issue* ou envie um *pull request*.
 
-For end-to-end (e2e) testing, run:
+## 👨‍💻 Autor
 
-```bash
-ng e2e
-```
+Feito por **J.Pedro** ([@Nphilin](https://github.com/Nphilin)).
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Feito com carinho para um dia muito especial. 💛
